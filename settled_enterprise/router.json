@@ -1,0 +1,13 @@
+{
+	"pages": [{
+		"path": "pages/modules/platform_app/settled_enterprise/index",
+		"style": {
+			"navigationBarTitleText": "入驻企业"
+		}
+	},{
+		"path": "pages/modules/platform_app/settled_enterprise/view/enterprise_detail",
+		"style": {
+			"navigationBarTitleText": "入驻企业-详情"
+		}
+	}]
+}

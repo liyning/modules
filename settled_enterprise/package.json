@@ -1,0 +1,24 @@
+{
+  "name": "settled_enterprise",
+  "version": "1.0.0",
+  "description": "入驻企业模块",
+  "main": "index.js",
+  "dependencies": {
+    "copy-webpack-plugin": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyning/modules.git"
+  },
+  "author": "liyaning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyning/modules/issues"
+  },
+  "homepage": "https://github.com/liyning/modules#readme"
+}

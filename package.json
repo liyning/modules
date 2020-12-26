@@ -1,8 +1,8 @@
 {
   "name": "settled_enterprise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "入驻企业模块",
-  "main": "copy.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy": "node ./copy.js"

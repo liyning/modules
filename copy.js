@@ -65,4 +65,4 @@ function exists(url,dest,callback){
 }
 exports.copy = copy;
 //copy("./views/","./www/");
-copy("./settled_enterprise/","../../pages/modules/platform_app/");
+copy("./platform_app/","../../pages/modules/platform_app/");

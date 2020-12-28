@@ -223,7 +223,6 @@
 
 			getItemList(value) {
 				console.log("ooooo=====")
-				const user = uni.getStorageSync('user');
 				if (this.currentPage == 1) {
 					uni.showLoading({
 						title: '加载中...',

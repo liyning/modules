@@ -41,9 +41,16 @@
 		mounted() {
 
 		},
-
 		methods: {
 			showDetail() {
+				const user = uni.getStorageSync('user');
+				const modulePath = '../modules/platform_app/module_lyn03/index';
+				if (!user) {
+					uni.redirectTo({
+						url: '/pages/main/sign_in_up/view/login?path='+modulePath
+					})
+					return;
+				}
 				uni.navigateTo({
 					url: './view/enterprise_detail?detailId=' + this.itemInfo.detailId
 				})

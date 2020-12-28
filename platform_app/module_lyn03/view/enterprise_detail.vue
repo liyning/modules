@@ -174,7 +174,7 @@
 		</van-row>
 		<view style="width: 100%;height:300px">
 			<view class='zwPhoto'>
-				<image src='../../static/images/dataNon.png' />
+				<image src='../../static/dataNon.png' />
 			</view>
 			<view class='zwText'>
 				暂无数据
@@ -188,7 +188,6 @@
 	import {
 		getDemandItemList
 	} from "../api/enterprise_detail.js";
-
 	export default {
 		components: {},
 
@@ -228,14 +227,11 @@
 		},
 		onLoad: function(option) { //option为object类型，会序列化上个页面传递的参数
 			this.detailId = option.detailId
-			console.log("detailId*********",this.detailId)
 			this.getItemList();
-		},
-		mounted() {
 		},
 		methods: {
 			checkImg() {
-				if(this.bannerList<2){
+				if (this.bannerList < 2) {
 					return;
 				}
 				uni.previewImage({

@@ -52,7 +52,7 @@
 					return;
 				}
 				uni.navigateTo({
-					url: './view/enterprise_detail?detailId=' + this.itemInfo.detailId
+					url: '/pages/modules/platform_app/module_lyn03/view/enterprise_detail?detailId=' + this.itemInfo.detailId
 				})
 			}
 		},

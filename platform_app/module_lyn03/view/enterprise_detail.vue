@@ -174,7 +174,7 @@
 		</van-row>
 		<view style="width: 100%;height:300px">
 			<view class='zwPhoto'>
-				<image src='../../static/dataNon.png' />
+				<image :src='imgN' />
 			</view>
 			<view class='zwText'>
 				暂无数据
@@ -185,6 +185,7 @@
 </template>
 
 <script>
+	import imgN from '@/pages/modules/platform_app/module_lyn03/static/dataNon.png'
 	import {
 		getDemandItemList
 	} from "../api/enterprise_detail.js";
@@ -194,6 +195,7 @@
 		data() {
 			return {
 				detailId: '',
+				imgN:imgN,
 				banner: '',
 				bannerList: [],
 				enterCompanyDetail: {},

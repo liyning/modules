@@ -3,11 +3,14 @@
 		"path": "pages/modules/platform_app/module_lyn03/index",
 		"style": {
 			"navigationBarTitleText": "入驻企业"
-		}
-	},{
+		},
+		"name": "enterprise_index"
+	}, {
 		"path": "pages/modules/platform_app/module_lyn03/view/enterprise_detail",
 		"style": {
 			"navigationBarTitleText": "入驻企业-详情"
-		}
+		},
+		"aliasPath": "/enterprise_detail/:detailId",
+		"name": "enterprise_detail"
 	}]
 }
